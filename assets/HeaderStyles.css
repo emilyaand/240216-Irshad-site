@@ -99,7 +99,7 @@ header{
     border: 3px solid yellow;
 }
 .container-fluid {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 form input {
     border-radius: 23rem;
@@ -108,5 +108,13 @@ input::placeholder {
     opacity: 0.5;
     border-radius: 23rem;
     border: red;
+}
+.col-6 {
+    border: 1px grey solid;
+    border-radius: 39px;
+    .search {
+        border-right: 1px solid grey;
+
+    }
 
 }
