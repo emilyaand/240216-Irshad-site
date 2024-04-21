@@ -25,16 +25,48 @@
 // });
 // });
 
-$(function() {
-    let firstIcon=$(".first-header");
+$(function () {
+  let firstIcon = $(".first-header");
 
-    firstIcon.on("click", function(){
+  firstIcon.on("click", function () {
     $(".first-dropdown").toggle();
-})
+  });
 
-let secondIcon=$(".second-header");
+  let secondIcon = $(".second-header");
 
-secondIcon.on("click", function(){
+  secondIcon.on("click", function () {
     $(".second-dropdown").toggle();
-})
-})
+  });
+
+  const languages = document.querySelectorAll(".first-dropdown li");
+  const exchange = document.querySelectorAll(".second-dropdown li");
+
+  languages.forEach(item => {
+    item.addEventListener("click", function() {
+        const image = this.firstElementChild.src;
+        const name = this.lastElementChild.innerText;
+
+        const firstHeader = document.querySelector(".first-header");
+        
+        firstHeader.querySelector("img").src = image;
+        firstHeader.querySelector("span").innerText = name;
+
+        document.querySelector(".first-dropdown").style.display = "none";
+    });
+  });
+
+    exchange.forEach((item) => {
+      item.addEventListener("click", function () {
+        const image = this.firstElementChild.src;
+        const name = this.lastElementChild.innerText;
+
+        const secondHeader = document.querySelector(".second-header");
+
+        secondHeader.querySelector("img").src = image;
+        secondHeader.querySelector("span").innerText = name;
+
+        document.querySelector(".second-dropdown").style.display =
+          "none";
+      });
+    });
+});

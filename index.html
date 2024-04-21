@@ -28,9 +28,9 @@
                     <div class="right-header">
                         <a href="">Theme FAQ's</a>
                         <a href="">Need Help?</a>
-                        <a class="first-header"><img src="./assets/images/usa.png" alt="">ENG<i
+                        <a class="first-header"><img src="./assets/images/usa.png" alt=""><span>ENG</span><i
                                 class="fa-solid fa-angle-down"></i></a>
-                        <a class="second-header"><img src="./assets/images/usa.png" alt="">USD<i
+                        <a class="second-header"><img src="./assets/images/usa.png" alt=""><span>USD</span><i
                                 class="fa-solid fa-angle-down"></i></a>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
         </ul>
     </div>
     <navbar>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="flex-wrap: wrap;">
+        <nav class="navbar navbar-expand-lg " style="flex-wrap: wrap;">
             <div class="container">
                 <div class="container-fluid top-nav">
                     <div class="row">
@@ -69,10 +69,13 @@
                         </div>
                         <div class="col-6 justify-content-center m d-flex ">
                             <div class="search w-100 w-xl-auto" style="width: 250px;">
-                                <input type="text" placeholder="Search and hit Enter...">
+                                <i class="fa-solid fa-magnifying-glass" style="color: grey;"></i>
+                                <input type="search" placeholder="Search and hit Enter..."
+                                    style="width: 100%; border: none; outline: none;">
                             </div>
                             <div class="categories d-sm-none d-lg-block">
-                                <select name="select-option" id="">
+                                <select name="select-option"
+                                    style="width: 100%; border: none; outline: none; color: grey;">
                                     <option value="allCategories">All Categories</option>
                                     <option value="car">Car</option>
                                     <option value="clothes">Clothes</option>
@@ -105,100 +108,111 @@
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarScroll">
-                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                    <div class="collapse navbar-collapse" style="width: 100%;" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll m-0 w-100 row"
                             style="--bs-scroll-height: 100px;">
-                            <li>
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    <svg xmlns="http://www.w3.org/2000/svg" id="glyph" height="28" viewBox="0 0 64 64"
-                                        width="28" class="injected-svg" data-src="/assets/images/icons/categories.svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" role="img">
-                                        <path
-                                            d="m29 11v14a4 4 0 0 1 -4 4h-14a4 4 0 0 1 -4-4v-14a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4zm24-4h-14a4 4 0 0 0 -4 4v14a4 4 0 0 0 4 4h14a4 4 0 0 0 4-4v-14a4 4 0 0 0 -4-4zm-28 28h-14a4 4 0 0 0 -4 4v14a4 4 0 0 0 4 4h14a4 4 0 0 0 4-4v-14a4 4 0 0 0 -4-4zm21 0a11 11 0 1 0 11 11 11 11 0 0 0 -11-11z">
-                                        </path>
-                                    </svg>
-                                    Categories
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Fashion</a></li>
-                                    <li><a class="dropdown-item" href="#">Electronics</a></li>
-                                    <li><a class="dropdown-item" href="#">Bikes</a></li>
-                                    <li><a class="dropdown-item" href="#">Home & Garden</a></li>
-                                    <li><a class="dropdown-item" href="#">Gift</a></li>
-                                    <li><a class="dropdown-item" href="#">Music</a></li>
-                                    <li><a class="dropdown-item" href="#">Health & Beauty</a></li>
-                                    <li><a class="dropdown-item" href="#">Pets</a></li>
-                                    <li><a class="dropdown-item" href="#">Baby Toys</a></li>
-                                </ul>
-                            </li>
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Home
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Market 1</a></li>
-                                <li><a class="dropdown-item" href="#">Market 2</a></li>
-                                <li><a class="dropdown-item" href="#">Fashion 1</a></li>
-                                <li><a class="dropdown-item" href="#">Fashion 2</a></li>
-                                <li><a class="dropdown-item" href="#">Fashion 3</a></li>
-                                <li><a class="dropdown-item" href="#">Grocery-1</a></li>
-                                <li><a class="dropdown-item" href="#">Grocery-2</a></li>
-                                <li><a class="dropdown-item" href="#">Grocery-3</a></li>
-                                <li><a class="dropdown-item" href="#">Gift Shop</a></li>
-                                <li><a class="dropdown-item" href="#">Gadget Shop</a></li>
-                                <li><a class="dropdown-item" href="#">Furniture Shop</a></li>
-                                <li><a class="dropdown-item" href="#">Health and Beauty</a></li>
-                            </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Pages
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Sale Page</a></li>
-                                    <li><a class="dropdown-item" href="#">Vendor</a></li>
-                                    <li><a class="dropdown-item" href="#">Shop</a></li>
-                                    <li><a class="dropdown-item" href="#">Auth</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    User Account
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Orders</a></li>
-                                    <li><a class="dropdown-item" href="#">Profile</a></li>
-                                    <li><a class="dropdown-item" href="#">Address</a></li>
-                                    <li><a class="dropdown-item" href="#">Support tickets<i
-                                                class="fa-solid fa-caret-right"></i></a></li>
-                                    <li><a class="dropdown-item" href="#">Wishlist</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Vendor Account
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Dashboard</a></li>
-                                    <li><a class="dropdown-item" href="#">Product</a></li>
-                                    <li><a class="dropdown-item" href="#">Orders</a></li>
-                                    <li><a class="dropdown-item" href="#">Profiles</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Track My Orders
-                                </a>
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Back to Demos
-                                </a>
-                            </li>
+                            <div class="row">
+                                <div class="col-5">
+                                    <li>
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <svg xmlns="http://www.w3.org/2000/svg" id="glyph" height="28"
+                                                viewBox="0 0 64 64" width="28" class="injected-svg"
+                                                data-src="/assets/images/icons/categories.svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" role="img">
+                                                <path
+                                                    d="m29 11v14a4 4 0 0 1 -4 4h-14a4 4 0 0 1 -4-4v-14a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4zm24-4h-14a4 4 0 0 0 -4 4v14a4 4 0 0 0 4 4h14a4 4 0 0 0 4-4v-14a4 4 0 0 0 -4-4zm-28 28h-14a4 4 0 0 0 -4 4v14a4 4 0 0 0 4 4h14a4 4 0 0 0 4-4v-14a4 4 0 0 0 -4-4zm21 0a11 11 0 1 0 11 11 11 11 0 0 0 -11-11z">
+                                                </path>
+                                            </svg>
+                                            Categories
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Fashion</a></li>
+                                            <li><a class="dropdown-item" href="#">Electronics</a></li>
+                                            <li><a class="dropdown-item" href="#">Bikes</a></li>
+                                            <li><a class="dropdown-item" href="#">Home & Garden</a></li>
+                                            <li><a class="dropdown-item" href="#">Gift</a></li>
+                                            <li><a class="dropdown-item" href="#">Music</a></li>
+                                            <li><a class="dropdown-item" href="#">Health & Beauty</a></li>
+                                            <li><a class="dropdown-item" href="#">Pets</a></li>
+                                            <li><a class="dropdown-item" href="#">Baby Toys</a></li>
+                                        </ul>
+                                    </li>
+                                </div>
+                                <div class="col-7 my-3">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Home
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Market 1</a></li>
+                                        <li><a class="dropdown-item" href="#">Market 2</a></li>
+                                        <li><a class="dropdown-item" href="#">Fashion 1</a></li>
+                                        <li><a class="dropdown-item" href="#">Fashion 2</a></li>
+                                        <li><a class="dropdown-item" href="#">Fashion 3</a></li>
+                                        <li><a class="dropdown-item" href="#">Grocery-1</a></li>
+                                        <li><a class="dropdown-item" href="#">Grocery-2</a></li>
+                                        <li><a class="dropdown-item" href="#">Grocery-3</a></li>
+                                        <li><a class="dropdown-item" href="#">Gift Shop</a></li>
+                                        <li><a class="dropdown-item" href="#">Gadget Shop</a></li>
+                                        <li><a class="dropdown-item" href="#">Furniture Shop</a></li>
+                                        <li><a class="dropdown-item" href="#">Health and Beauty</a></li>
+                                    </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Pages
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Sale Page</a></li>
+                                            <li><a class="dropdown-item" href="#">Vendor</a></li>
+                                            <li><a class="dropdown-item" href="#">Shop</a></li>
+                                            <li><a class="dropdown-item" href="#">Auth</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            User Account
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Orders</a></li>
+                                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                                            <li><a class="dropdown-item" href="#">Address</a></li>
+                                            <li><a class="dropdown-item" href="#">Support tickets<i
+                                                        class="fa-solid fa-caret-right"></i></a></li>
+                                            <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Vendor Account
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Dashboard</a></li>
+                                            <li><a class="dropdown-item" href="#">Product</a></li>
+                                            <li><a class="dropdown-item" href="#">Orders</a></li>
+                                            <li><a class="dropdown-item" href="#">Profiles</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Track My Orders
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Back to Demos
+                                        </a>
+                                    </li>
+
+                                </div>
+                            </div>
+
+
                         </ul>
                     </div>
                 </div>
@@ -271,7 +285,8 @@
                                 <div class="title">
                                     <div class="colors">
                                         <a>
-                                            <h3 font-weight="600" class="text-muted" color=".text-muted">Say Ban Matt Black</h3>
+                                            <h3 font-weight="600" class="text-muted" color=".text-muted">Say Ban Matt
+                                                Black</h3>
                                         </a>
                                     </div>
                                     <div class="rating">
@@ -309,7 +324,8 @@
                                 <div class="title">
                                     <div class="colors">
                                         <a>
-                                            <h3 font-weight="600" class="text-muted" color=".text-muted">Say Ban Black</h3>
+                                            <h3 font-weight="600" class="text-muted" color=".text-muted">Say Ban Black
+                                            </h3>
                                         </a>
                                     </div>
                                     <div class="rating">
@@ -347,7 +363,8 @@
                                 <div class="title">
                                     <div class="colors">
                                         <a>
-                                            <h3 font-weight="600" class="text-muted" color=".text-muted">Say Ban Ocean</h3>
+                                            <h3 font-weight="600" class="text-muted" color=".text-muted">Say Ban Ocean
+                                            </h3>
                                         </a>
                                     </div>
                                     <div class="rating">
@@ -385,7 +402,8 @@
                                 <div class="title">
                                     <div class="colors">
                                         <a>
-                                            <h3 font-weight="600" class="text-muted" color=".text-muted">Sun glasses Collection</h3>
+                                            <h3 font-weight="600" class="text-muted" color=".text-muted">Sun glasses
+                                                Collection</h3>
                                         </a>
                                     </div>
                                     <div class="rating">
@@ -423,12 +441,14 @@
                                 <div class="title">
                                     <div class="colors">
                                         <a>
-                                            <h3 font-weight="600" class="text-muted" color=".text-muted">Ziaomi mi band2</h3>
+                                            <h3 font-weight="600" class="text-muted" color=".text-muted">Ziaomi mi band2
+                                            </h3>
                                         </a>
                                     </div>
                                     <div class="rating">
-                                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                                class="fa-regular fa-star"></i></span>
                                     </div>
                                     <div class="cost">
                                         <span>$ 187.00</span>
@@ -447,6 +467,16 @@
         </div>
 
     </div>
+    <footer>
+        <div class="row">
+            <div class="col-3">
+
+            </div>
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
